@@ -1,0 +1,6 @@
+train: /root/ultralytics/dataset1/images/train
+val: /root/ultralytics/dataset1/images/val
+
+# Classes
+nc: 1  # 类别数量
+names: ['stem']

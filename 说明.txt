@@ -1,0 +1,13 @@
+git init  # 初始化仓库
+
+git add .  # 添加所有文件到暂存区
+
+git commit -m "Initial commit"  # 提交更改
+
+git remote -v  # 查看远程仓库信息
+
+git remote add origin https://github.com/liaoqingjian/car_defect.git  # 添加远程仓库
+
+git branch -M main  # 将本地分支重命名为 main
+
+git push -u origin main  # 推送到远程的 main 分支

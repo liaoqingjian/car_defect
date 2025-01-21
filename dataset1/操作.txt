@@ -1,0 +1,10 @@
+目标检测测试命令：
+yolo predict model="yolo11n.pt" source='bus.jpg'
+
+训练步骤：
+1.运行dataset/data.py文件
+2.修改data.yaml文件里面的nc类别数量和names类别名称
+3.运行以下命令
+yolo task=detect mode=train model="yolo11n.pt" data=dataset1/coco.yaml epochs=100 imgsz=640 batch=8
+4.测试命令
+yolo task=detect mode=predict model=/root/ultralytics/runs/segment/train/weights/best.pt source="jian" conf=0.6
