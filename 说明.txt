@@ -10,4 +10,7 @@ git remote add origin https://github.com/liaoqingjian/car_defect.git  # 添加�
 
 git branch -M main  # 将本地分支重命名为 main
 
+git pull origin main --allow-unrelated-histories
+
+
 git push -u origin main  # 推送到远程的 main 分支
